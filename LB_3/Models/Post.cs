@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace LB_3;
+namespace LB_3.Models;
 
 public partial class Post
 {
@@ -13,7 +13,7 @@ public partial class Post
 
     public string Content { get; set; } = null!;
 
-    public DateTime DateOfPublication { get; set; }
+    public DateOnly DateOfPublication { get; set; }
 
     public virtual User IdUserNavigation { get; set; } = null!;
 }

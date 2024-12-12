@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace LB_3;
+namespace LB_3.Models;
 
 public partial class BlogContext : DbContext
 {
